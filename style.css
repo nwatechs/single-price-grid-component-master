@@ -1,0 +1,122 @@
+ @import url('https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+* {
+     margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Karla', sans-serif;
+}
+    
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #E6EFF6;
+}
+
+div.up {
+    margin-top: 120px;
+    background-color: white;
+    padding-left: 25px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    padding-right: 40px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+h2 {
+    margin-bottom: 20px;
+    color: hsl(179, 62%, 43%);
+}
+
+h3.first {
+    color: hsl(71, 73%, 54%);
+    margin-bottom: 10px;
+    
+}
+
+p.one {
+    line-height:25px;
+    color: hsl(218, 22%, 67%);
+    font-size: 14px;
+}
+
+div.down {
+    display: flex;
+}
+
+div.down div.left {
+    background-color:#2BB3B1;
+    padding: 40px 40px 10px 40px;
+    border-bottom-left-radius: 10px;
+    color: white;
+}
+h4 {
+    margin-top: -10px;
+    line-height: 30px;
+}
+span.one {
+    color: white;
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+span {
+    color: #98E9EC;
+    margin-bottom: 10px;
+}
+
+p.three {
+    margin-top: 5px;
+    margin-bottom:30px;
+}
+
+button {
+    padding: 15px 95px;
+    background-color:hsl(71, 73%, 54%);
+    border: none;
+    color: white;
+    border-radius: 5px;
+}
+div.down div.right {
+    background-color:#4ABEBD ;
+    padding: 40px 80px 10px 40px;
+    border-bottom-right-radius: 10px;
+    
+}
+
+h4.right{
+    line-height: 40px;
+    margin-top: -10px;
+    color: white;
+}
+
+p.last {
+    margin-bottom: 20px;
+    font-size: 12px;
+    line-height: 20px;
+    color: #98E9EC;
+}
+
+@media screen and (max-width: 600px) {
+    body {
+        padding: 20px;
+
+    }
+    div.up {
+        margin-top: -10px;
+    }
+    div.down {
+        display: flex;
+        flex-direction: column;
+    }
+    div.down div.left {
+        border-bottom-left-radius:0px;
+
+    }
+    div.down div.right {
+        border-bottom-left-radius: 10px;
+    }
+    
+}
